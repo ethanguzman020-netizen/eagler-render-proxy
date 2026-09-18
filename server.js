@@ -4,7 +4,7 @@ const WebSocket = require("ws");
 const PORT = Number(process.env.PORT || 10000);
 const BACKEND_WS_URL =
   process.env.BACKEND_WS_URL ||
-  "ws://taeserveroflife1.falixsrv.me:27355/";
+  "ws://taeheights.tkmc.net:60840/";
 
 const server = http.createServer((request, response) => {
   response.writeHead(200, {
